@@ -12,7 +12,7 @@ public class Student {
 	}
 	
 	public Student(String n, String sid, String em) {
-		this.name = n;
+		this.name = String.copyValueOf(n);
 		this.id = sid;
 		this.group = "K59CB";
 		this.email = em;
